@@ -6,6 +6,9 @@ pipeline {
     }
     stages {
         stage("Tools initialization") {
+            tools {
+                   jdk "JAVA11"
+                }
             steps {
                 sh "mvn --version"
                 sh "java -version"
