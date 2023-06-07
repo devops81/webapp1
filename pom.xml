@@ -14,14 +14,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-     <plugin>
+    
+  </dependencies>
+ 
+  <build>
+    <plugins>
+       <plugin>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.0.2</version>
 </plugin>
-  </dependencies>
- 
-  <build>
+    </plugins>
     <finalName>MyWebApp</finalName>
   </build>
 </project>
